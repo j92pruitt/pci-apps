@@ -1,0 +1,26 @@
+{
+  "name": "pci-apps",
+  "version": "1.0.0",
+  "description": "A collection of custom apps for my coworkers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j92pruitt/pci-apps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j92pruitt/pci-apps/issues"
+  },
+  "homepage": "https://github.com/j92pruitt/pci-apps#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "handlebars": "^4.7.7"
+  }
+}
