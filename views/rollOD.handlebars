@@ -1,39 +1,57 @@
 <div class="row loginPage" >
+
   <div class="col-md-6">
+
     <h2>OD to Footage</h2>
 
-    <form class="form login-form">
+    <form class="form" id="OtF-form">
+
       <div class="form-group">
-        <label for="email-login">Thickness (MIL):</label>
-        <input class="form-input" type="text" id="email-login" />
+        <label for="OtF-thickness">Thickness (MIL):</label>
+        <input class="form-input" type="text" id="OtF-thickness" />
       </div>
+
       <div class="form-group">
-        <label for="password-login">OD:</label>
-        <input class="form-input" type="password" id="password-login" />
+        <label for="Otf-OD">OD:</label>
+        <input class="form-input" type="text" id="Otf-OD" />
       </div>
+
       <div class="form-group">
         <button class="btn btn-primary" type="submit">Calculate</button>
       </div>
+
     </form>
+
+    <h2 class="text-center" id="OtF-answer"></h2>
+
   </div>
+
   <div class="col-md-6">
+
     <h2>Footage to OD</h2>
 
-    <form class="form signup-form">
+    <form class="form" id="FtO-form">
+
       <div class="form-group">
-        <label for="email-signup">Thickness(MIL):</label>
-        <input class="form-input" type="text" id="email-signup" />
+        <label for="FtO-thickness">Thickness(MIL):</label>
+        <input class="form-input" type="text" id="FtO-thickness" />
       </div>
+
       <div class="form-group">
-        <label for="password-signup">Footage:</label>
-        <input class="form-input" type="password" id="password-signup" />
+        <label for="FtO-footage">Footage:</label>
+        <input class="form-input" type="text" id="FtO-footage" />
       </div>
+
       <div class="form-group">
         <button class="btn btn-primary" type="submit">Calculate</button>
       </div>
+
     </form>
+
+    <h2 class="text-center" id="FtO-answer"></h2>
+
   </div>
 
 </div>
 
-<h2 class="text-center">Sorry Di, still under construction.</h2>
+<script src="OD-Calc.js"></script>
